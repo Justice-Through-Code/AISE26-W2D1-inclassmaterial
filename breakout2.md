@@ -11,8 +11,8 @@ Duration: 30 minutes
 **Instructions**: Build a simple command line interface that lets us query the OpenWeather API
 
 **Steps**:
-Create an API key (at least one per group)
-1. Create a (free) account: https://home.openweathermap.org
+Create an API key (at least one per group). Guide: https://openweathermap.org/appid
+1. Create a (free) account: https://home.openweathermap.org.
 2. Find your key on openweathermap.org. Add it to a local text file.
 
 - Load your key into a Python script.
