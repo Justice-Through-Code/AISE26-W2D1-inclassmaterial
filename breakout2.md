@@ -29,9 +29,9 @@ Use input to prompt the user for the name of a city ("`Please input a city (or q
 - What errors did you predict your users would cause? Are any error states particularly difficult to deal with?
 - How did you manage your API key? What considerations are important when dealing with API keys?
 
-**Bonus:**
-#### Extending our command line program
-
+<details>
+  <summary>**Bonus**</summary>
+  
 The basic application contains a loop which loads the API key from a local .env file, prints a welcome message, and prompts the user for input. Extend the application with the following commands:
 
 `location`: Sets the location at which weather is queried. When a new location is successfully set, display the time of day, temperature and "main" weather description. *This is the only time the API should be queried! You have a max of 60 calls/min*
@@ -45,3 +45,5 @@ The program should have three additional commands:
 `help`: Prints instructions on how to use the program.
 
 `quit`: Ends the program.
+<\details>
+
